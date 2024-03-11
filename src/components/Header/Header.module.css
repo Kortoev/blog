@@ -1,0 +1,55 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  border: 1px solid #e8e8e8;
+}
+
+.container {
+  width: 600px;
+  height: 60px;
+  left: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  top: 13px;
+  left: 420px;
+  background: #d23669;
+  border-radius: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.entranceButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 93px;
+  height: 32px;
+  background: #d23669;
+  border-radius: 5px;
+}
+
+.registButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 150px;
+  height: 32px;
+  background: #d23669;
+}
+
+.link {
+  text-decoration: none;
+}
